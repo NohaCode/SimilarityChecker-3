@@ -15,8 +15,8 @@ class CheckerTest {
     @Test
     void LengthCheckTest1() {
         Checker checker = new Checker();
-        int expected = 60;
         int actual = checker.lengthCheck("ASD", "DSA");
+        int expected = 60;
 
         assertEquals(expected, actual);
     }
