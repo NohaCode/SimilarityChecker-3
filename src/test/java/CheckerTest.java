@@ -20,4 +20,15 @@ class CheckerTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    void LengthCheckTest2() {
+        Checker checker = new Checker();
+        int actual = checker.lengthCheck("A", "BB");
+        int expected = 0;
+
+        assertEquals(expected, actual);
+    }
+
+
 }
